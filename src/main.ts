@@ -1,4 +1,5 @@
 import * as THREE from "three";
+import { Pane } from "tweakpane";
 
-// @ts-ignore
 const scene = new THREE.Scene();
+const pane = new Pane();
