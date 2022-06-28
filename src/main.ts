@@ -1,3 +1,4 @@
+import "destyle.css";
 import * as THREE from "three";
 
 // @ts-ignore
