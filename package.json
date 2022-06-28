@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@tweakpane/core": "^1.1.0",
     "@types/three": "^0.141.0",
     "destyle.css": "^3.0.2",
     "sass": "^1.52.3",
@@ -15,6 +16,7 @@
     "vite": "^2.9.9"
   },
   "dependencies": {
-    "three": "^0.141.0"
+    "three": "^0.141.0",
+    "tweakpane": "^3.1.0"
   }
 }

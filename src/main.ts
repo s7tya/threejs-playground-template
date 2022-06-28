@@ -1,5 +1,6 @@
 import "destyle.css";
 import * as THREE from "three";
+import { Pane } from "tweakpane";
 
 const canvasEl = document.getElementById("app");
 
@@ -22,6 +23,8 @@ const fov = 60;
 const camera = new THREE.PerspectiveCamera(fov, canvasAspectRatio, 0.1, 1000);
 
 const scene = new THREE.Scene();
+
+const pane = new Pane();
 
 const tick = () => {
   renderer.render(scene, camera);
